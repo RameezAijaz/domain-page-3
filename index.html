@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buy this domain</title>
+    <style>
+        .heading{
+            font-family: montserrat,sans-serif;
+            font-weight: 700;
+            display: block;
+            font-size: 55px;
+            line-height: 60px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            text-align: center;
+            position: relative;
+            color: #000;
+        }
+        #domain-name{
+            color: #ad21c5;
+        }
+    </style>
+</head>
+<body style="background: #fec054">
+
+<div style="width: 100%; height: 300px; margin: auto; bottom: 50%; top: 50%; position: absolute;">
+    <h1 class="heading">To buy <span id="domain-name"></span> contact <a href="mailto:ramez.aijaz.com">Ramez.aijaz@gmail.com</a></h1>
+</div>
+
+<script>
+    document.getElementById('domain-name').innerText = window.location.hostname;
+</script>
+
+</body>
+</html>
